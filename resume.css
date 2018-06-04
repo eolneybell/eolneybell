@@ -1,0 +1,50 @@
+body{
+  background-color: #ccc;
+}
+
+h1, h2 {
+  color: red;
+  font: 50px arial, sans-serif;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-top:0;
+  background-color: #4d4f51;
+  padding-bottom: .1em;
+  padding-top: .1em;
+  border: 1px solid black;
+}
+
+h2 {
+  font: 30px arial, sans-sarif;
+  text-align: left;
+  padding-left: .5em;
+}
+
+p, li, ul {
+  font: 15px arial, sans-serif;
+  padding: 1em;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  margin: 0;
+}
+
+li {
+  margin: 0;
+  margin-left: 1em;
+  border-style: none;
+}
+
+.subItem {
+  border-style: none;
+  padding: 0;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  font: 12px arial, sans-serif;
+}
+
+p {
+    border-bottom: 1px solid black;
+}
