@@ -16,7 +16,7 @@ h1 {
   padding-top: 0.1em;
 }
 
-div {
+.frame {
   background: radial-gradient(white 60%, gray, gray);
   border: 1px solid #92cddc;
   border-radius: 50%;
