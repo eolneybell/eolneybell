@@ -5,15 +5,15 @@ body {
 .menu {
   color: white;
   font: 50px helvetica, sans-serif;
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1em;
-  margin-top: 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
   background-color: #92cddc;
   padding-bottom: 0.1em;
   padding-top: 0.1em;
   display: flex;
+  justify-content: space-between;
 }
 
 h1 {
@@ -55,5 +55,10 @@ h1 {
 
 .menu-btns {
   font: 20px helvetica, sans-serif;
-  right: 0;
+  padding-top: 0.1em;
+}
+
+button {
+  font: 20px helvetica, sans-serif;
+  border: none;
 }
