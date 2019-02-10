@@ -4,7 +4,7 @@ body {
 
 .menu {
   color: white;
-  font: 50px helvetica, sans-serif;
+  font: 300 50px helvetica, sans-serif;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
@@ -24,6 +24,7 @@ h1 {
   background-color: #92cddc;
   padding-bottom: 0px;
   padding-top: 0.1em;
+  margin-left: 30px;
 }
 
 .frame {
@@ -54,11 +55,13 @@ h1 {
 }
 
 .menu-btns {
-  font: 20px helvetica, sans-serif;
-  padding-top: 0.1em;
+  display: flex;
+  margin-right: 30px;
 }
 
 button {
-  font: 20px helvetica, sans-serif;
+  font: 300 20px helvetica, sans-serif;
   border: none;
+  background-color: inherit;
+  color: white;
 }
