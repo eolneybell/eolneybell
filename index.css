@@ -2,13 +2,24 @@ body {
   background-color: white;
 }
 
+.menu {
+  color: white;
+  font: 50px helvetica, sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-top: 0;
+  background-color: #92cddc;
+  padding-bottom: 0.1em;
+  padding-top: 0.1em;
+}
+
 h1 {
   color: white;
   font: 50px helvetica, sans-serif;
   text-align: center;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 1em;
   margin-top: 0;
   background-color: #92cddc;
@@ -45,6 +56,5 @@ h1 {
 
 .menu-btns {
   font: 20px helvetica, sans-serif;
-  left: 0;
-  bottom: 0;
+  right: 0;
 }
