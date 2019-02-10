@@ -13,17 +13,16 @@ body {
   background-color: #92cddc;
   padding-bottom: 0.1em;
   padding-top: 0.1em;
+  display: flex;
 }
 
 h1 {
   color: white;
   font: 50px helvetica, sans-serif;
-  text-align: center;
-  display: block;
-  margin-bottom: 1em;
+  margin-bottom: 0px;
   margin-top: 0;
   background-color: #92cddc;
-  padding-bottom: 0.1em;
+  padding-bottom: 0px;
   padding-top: 0.1em;
 }
 
