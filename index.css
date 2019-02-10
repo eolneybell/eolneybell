@@ -22,20 +22,12 @@ h1 {
   border-radius: 50%;
   height: 500px;
   width: 500px;
-  display: block;
+  display: absolute;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 0 0 10px 10px grey;
 }
 
-.firstImage {
-  display: block;
-  position: relative;
-  opacity: 0.2;
-  margin-top: 10%;
-  margin-left: -14%;
-  margin-right: auto;
-}
 .secondImage {
   display: block;
   position: absolute;
