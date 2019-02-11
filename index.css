@@ -18,11 +18,12 @@ body {
 .home-btn {
   color: black;
   border: none;
-  font: 300 50px helvetica, sans-serif;
+  font: 300 0.75em helvetica, sans-serif;
   margin-bottom: 0px;
   margin-top: 0px;
   padding-bottom: 0px;
   margin-left: 30px;
+  cursor: pointer;
 }
 
 .home-body {
@@ -105,7 +106,6 @@ p {
 .small-btn.focus {
   outline: none;
   box-shadow: none;
-  font: 400 0.5em helvetica, sans-serif;
   color: #92cddc;
   border-left: solid black 1px;
 }
@@ -116,5 +116,5 @@ p {
 .home-btn.focus {
   outline: none;
   box-shadow: none;
-  font: 400 50px helvetica, sans-serif;
+  color: #92cddc;
 }
