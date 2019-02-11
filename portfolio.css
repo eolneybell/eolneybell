@@ -1,0 +1,78 @@
+body {
+  background-color: white;
+  font: 300 50px helvetica, sans-serif;
+}
+
+.menu {
+  color: black;
+  font: 300 50px helvetica, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0.1em;
+  padding-top: 0.1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-btn {
+  color: black;
+  border: none;
+  font: 300 0.75em helvetica, sans-serif;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 30px;
+  cursor: pointer;
+  background-color: inherit;
+}
+
+.menu-btns {
+  display: flex;
+  margin-right: 30px;
+}
+
+.small-btn {
+  font: 300 0.5em helvetica, sans-serif;
+  border: none;
+  background-color: inherit;
+  color: black;
+  cursor: pointer;
+  border-left: solid black 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.small-btn:hover,
+.small-btn.hover,
+.small-btn:focus,
+.small-btn.focus {
+  outline: none;
+  box-shadow: none;
+  color: #92cddc;
+  border-left: solid black 1px;
+}
+
+.home-btn:hover,
+.home-btn.hover,
+.home-btn:focus,
+.home-btn.focus {
+  outline: none;
+  box-shadow: none;
+  color: #92cddc;
+}
+
+.portfolio-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 20px 20px 0 20px;
+  background-color: #ccc;
+  position: relative;
+}
