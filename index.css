@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  font: 300 50px helvetica, sans-serif;
 }
 
 .menu {
@@ -24,6 +25,7 @@ body {
   padding-bottom: 0px;
   margin-left: 30px;
   cursor: pointer;
+  background-color: inherit;
 }
 
 .home-body {
@@ -32,7 +34,7 @@ body {
   margin-top: 100px;
 }
 
-.frame {
+.silhouette {
   border-radius: 50%;
   height: 300px;
   width: 300px;
@@ -45,22 +47,11 @@ body {
   background-color: #92cddc;
 }
 
-.frame-second {
+.frame {
   border-radius: 50%;
   height: 300px;
   width: 300px;
   display: block;
-}
-
-.secondImage {
-  display: block;
-  position: absolute;
-  opacity: 0.7;
-  top: 190px;
-  margin-top: 0%;
-  margin-left: 40px;
-  height: 300px;
-  width: auto;
 }
 
 .text-body {
@@ -69,13 +60,13 @@ body {
 }
 
 .p-header {
-  font: 300 2em helvetica, sans-serif;
+  font: 300 0.5em helvetica, sans-serif;
   padding-left: 60px;
   padding-top: 60px;
 }
 
 p {
-  font: 300 1em helvetica, sans-serif;
+  font: 300 0.35em helvetica, sans-serif;
   padding-top: 10px;
   padding-left: 60px;
   padding-right: 60px;
