@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
 }
 
-.home-button {
+.home-btn {
   color: black;
   font: 300 1em helvetica, sans-serif;
   margin-bottom: 0px;
@@ -82,7 +82,7 @@ p {
   margin-right: 30px;
 }
 
-button {
+.small-btn {
   font: 300 0.5em helvetica, sans-serif;
   border: none;
   background-color: inherit;
@@ -96,13 +96,22 @@ button {
   margin-bottom: auto;
 }
 
-button:hover,
-button.hover,
-button:focus,
-button.focus {
+.small-btn:hover,
+.small-btn.hover,
+.small-btn:focus,
+.small-btn.focus {
   outline: none;
   box-shadow: none;
   font: 400 0.5em helvetica, sans-serif;
   color: #92cddc;
   border-left: solid black 1px;
+}
+
+.home-btn:hover,
+.home-btn.hover,
+.home-btn:focus,
+.home-btn.focus {
+  outline: none;
+  box-shadow: none;
+  font: 400 1em helvetica, sans-serif;
 }
