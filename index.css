@@ -17,7 +17,8 @@ body {
 
 .home-btn {
   color: black;
-  font: 300 1em helvetica, sans-serif;
+  border: none;
+  font: 300 50px helvetica, sans-serif;
   margin-bottom: 0px;
   margin-top: 0px;
   padding-bottom: 0px;
@@ -63,15 +64,18 @@ body {
 
 .text-body {
   display: flex;
+  flex-direction: column;
 }
 
 .p-header {
   font: 300 2em helvetica, sans-serif;
+  padding-left: 60px;
+  padding-top: 60px;
 }
 
 p {
   font: 300 1em helvetica, sans-serif;
-  padding-top: 90px;
+  padding-top: 10px;
   padding-left: 60px;
   padding-right: 60px;
   line-height: 200%;
@@ -91,7 +95,6 @@ p {
   border-left: solid black 1px;
   padding-left: 10px;
   padding-right: 10px;
-  height: 35px;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -113,5 +116,5 @@ p {
 .home-btn.focus {
   outline: none;
   box-shadow: none;
-  font: 400 1em helvetica, sans-serif;
+  font: 400 50px helvetica, sans-serif;
 }
