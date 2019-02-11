@@ -3,13 +3,12 @@ body {
 }
 
 .menu {
-  color: white;
+  color: black;
   font: 300 50px helvetica, sans-serif;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
   margin-top: 0px;
-  background-color: #92cddc;
   padding-bottom: 0.1em;
   padding-top: 0.1em;
   display: flex;
@@ -17,13 +16,11 @@ body {
 }
 
 h1 {
-  color: white;
-  font: 50px helvetica, sans-serif;
+  color: black;
+  font: 300 1em helvetica, sans-serif;
   margin-bottom: 0px;
-  margin-top: 0;
-  background-color: #92cddc;
+  margin-top: 0px;
   padding-bottom: 0px;
-  padding-top: 0.1em;
   margin-left: 30px;
 }
 
@@ -68,11 +65,17 @@ h1 {
 }
 
 button {
-  font: 300 20px helvetica, sans-serif;
+  font: 300 0.5em helvetica, sans-serif;
   border: none;
   background-color: inherit;
-  color: white;
+  color: black;
   cursor: pointer;
+  border-left: solid 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 35px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 button:hover,
