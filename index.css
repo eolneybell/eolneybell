@@ -26,6 +26,8 @@ h1 {
 
 .text-body {
   display: flex;
+  margin-left: 30px;
+  margin-top: 100px;
 }
 
 .frame {
@@ -33,7 +35,6 @@ h1 {
   height: 300px;
   width: 300px;
   display: block;
-  position: absolute;
   background-image: url("imgs/Silhouette10.png");
   background-position-x: center;
   background-position-y: 0.25rem;
@@ -47,8 +48,6 @@ h1 {
   height: 300px;
   width: 300px;
   display: block;
-  margin-left: 30px;
-  margin-top: 100px;
 }
 
 .secondImage {
@@ -63,7 +62,11 @@ h1 {
 }
 
 p {
-  font: 300 0.25em helvetica, sans-serif;
+  font: 300 1em helvetica, sans-serif;
+  padding-top: 90px;
+  padding-left: 60px;
+  padding-right: 60px;
+  line-height: 200%;
 }
 
 .menu-btns {
@@ -91,5 +94,6 @@ button:focus,
 button.focus {
   outline: none;
   box-shadow: none;
-  background-color: #668f9a;
+  font: 400 0.5em helvetica, sans-serif;
+  color: #92cddc;
 }
