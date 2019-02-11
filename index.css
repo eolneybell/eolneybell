@@ -24,6 +24,10 @@ h1 {
   margin-left: 30px;
 }
 
+.text-body {
+  display: flex;
+}
+
 .frame {
   border-radius: 50%;
   height: 300px;
@@ -35,16 +39,15 @@ h1 {
   background-position-y: 0.25rem;
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.7;
+  background-color: #92cddc;
 }
 
 .frame-second {
-  border: 2px solid #92cddc;
   border-radius: 50%;
   height: 300px;
   width: 300px;
   display: block;
-  margin-left: 10px;
+  margin-left: 30px;
   margin-top: 100px;
 }
 
@@ -57,6 +60,10 @@ h1 {
   margin-left: 40px;
   height: 300px;
   width: auto;
+}
+
+p {
+  font: 300 0.25em helvetica, sans-serif;
 }
 
 .menu-btns {
