@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
 }
 
-h1 {
+.home-button {
   color: black;
   font: 300 1em helvetica, sans-serif;
   margin-bottom: 0px;
@@ -24,7 +24,7 @@ h1 {
   margin-left: 30px;
 }
 
-.text-body {
+.home-body {
   display: flex;
   margin-left: 30px;
   margin-top: 100px;
@@ -61,6 +61,14 @@ h1 {
   width: auto;
 }
 
+.text-body {
+  display: flex;
+}
+
+.p-header {
+  font: 300 2em helvetica, sans-serif;
+}
+
 p {
   font: 300 1em helvetica, sans-serif;
   padding-top: 90px;
@@ -80,7 +88,7 @@ button {
   background-color: inherit;
   color: black;
   cursor: pointer;
-  border-left: solid 1px;
+  border-left: solid black 1px;
   padding-left: 10px;
   padding-right: 10px;
   height: 35px;
@@ -96,4 +104,5 @@ button.focus {
   box-shadow: none;
   font: 400 0.5em helvetica, sans-serif;
   color: #92cddc;
+  border-left: solid black 1px;
 }
