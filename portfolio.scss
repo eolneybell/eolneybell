@@ -12,7 +12,7 @@
   cursor: pointer;
 }
 
-.project {
+@mixin project {
   margin: 20px 20px 0 20px;
   background-color: #ccc;
   position: relative;
@@ -23,6 +23,7 @@
 }
 
 .project-1 {
+  @include project;
   background-image: url("imgs/bottlneck1.png");
   background-size: contain;
   background-repeat: no-repeat;
