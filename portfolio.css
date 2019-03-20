@@ -16,29 +16,43 @@
   margin: 20px 20px 0 20px;
   background-color: #ccc;
   position: relative;
-  min-width: 20px;
-  min-height: 20px;
+  width: 200px;
+  height: 200px;
   display: flex;
   flex-direction: column;
-}
-
-.project-1 {
-  background-image: url("imgs/bottlneck1.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position-x: center;
 }
 
+.project-1 {
+  background-image: url("imgs/bottleneck-collage.png");
+}
+.project-2 {
+  background-image: url("imgs/portable-dialysis.png");
+}
+.project-3 {
+  background-image: url("imgs/glucose-meter.png");
+}
+.project-4 {
+  background-image: url("imgs/vr-game.png");
+}
+.project-5 {
+  background-image: url("imgs/hfe-website.png");
+}
+.project-6 {
+  background-image: url("imgs/history-website.png");
+}
+
 .project-image {
   flex: 75%;
   min-height: 20px;
-  opacity: 0;
 }
 
 .project-title {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   flex: 25%;
-  font: 300 0.5em helvetica, sans-serif;
+  font: 300 0.4em helvetica, sans-serif;
   padding: 10px;
 }
