@@ -3,6 +3,12 @@ body {
   font: 300 50px helvetica, sans-serif;
 }
 
+.page-header {
+  font: 300 0.5em helvetica, sans-serif;
+  margin-left: 30px;
+  padding-left: 7px;
+}
+
 .menu {
   color: black;
   font: 300 50px helvetica, sans-serif;
@@ -49,10 +55,14 @@ body {
 .small-btn:hover,
 .small-btn.hover,
 .small-btn:focus,
-.small-btn.focus {
+.small-btn.focus,
+.small-btn:active,
+.small-btn.active,
+.small-btn:visited,
+.small-btn.visited  {
   outline: none;
   box-shadow: none;
-  color: #92cddc;
+  background-color: #92cddc;
   border-left: solid black 1px;
 }
 
@@ -64,3 +74,9 @@ body {
   box-shadow: none;
   color: #92cddc;
 }
+
+.text-body {
+  display: flex;
+  flex-direction: column;
+}
+

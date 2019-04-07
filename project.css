@@ -1,0 +1,59 @@
+@import "common.css";
+
+.project-page {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 71px;
+}
+
+.intro-img {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+  display: block;
+}
+
+.project-header {
+  font: 300 0.5em helvetica, sans-serif;
+  padding-left: 60px;
+}
+
+.project-body {
+  font: 300 0.35em helvetica, sans-serif;
+  padding-top: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
+  line-height: 200%;
+}
+
+.img-caption {
+  display: flex;
+  flex-direction: column;
+}
+
+.showcase-img {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 50px;
+}
+
+iframe {
+  width: 80vw;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: block;
+}
+
+.caption {
+  font: 300 0.35em helvetica, sans-serif;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  line-height: 200%;
+  margin-left: auto;
+  margin-right: auto;
+}
