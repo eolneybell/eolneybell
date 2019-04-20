@@ -45,11 +45,11 @@ body {
   background-color: inherit;
   color: black;
   cursor: pointer;
-  border-left: solid black 1px;
   padding-left: 10px;
   padding-right: 10px;
   margin-top: auto;
   margin-bottom: auto;
+  margin-left: 2vw;
 }
 
 .small-btn:hover,
@@ -59,11 +59,11 @@ body {
 .small-btn:active,
 .small-btn.active,
 .small-btn:visited,
-.small-btn.visited  {
+.small-btn.visited {
   outline: none;
   box-shadow: none;
-  background-color: #92cddc;
-  border-left: solid black 1px;
+  color: #92cddc;
+  text-shadow: 0 0 1.25px #92cddc, 0 0 1.25px #92cddc;
 }
 
 .home-btn:hover,
@@ -73,10 +73,10 @@ body {
   outline: none;
   box-shadow: none;
   color: #92cddc;
+  text-shadow: 0 0 1.25px #92cddc, 0 0 1.25px #92cddc;
 }
 
 .text-body {
   display: flex;
   flex-direction: column;
 }
-
