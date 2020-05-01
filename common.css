@@ -1,12 +1,13 @@
 body {
   background-color: white;
   font: 300 50px helvetica, sans-serif;
+  margin: 0px;
 }
 
 .page-header {
   font: 300 0.5em helvetica, sans-serif;
-  margin-left: 30px;
-  padding-left: 7px;
+  padding-left: 37px;
+  margin-bottom: 30px;
 }
 
 .menu {
@@ -16,8 +17,8 @@ body {
   margin-right: auto;
   margin-bottom: 0px;
   margin-top: 0px;
-  padding-bottom: 0.1em;
-  padding-top: 0.1em;
+  padding-bottom: 15px;
+  padding-top: 15px;
   display: flex;
   justify-content: space-between;
 }

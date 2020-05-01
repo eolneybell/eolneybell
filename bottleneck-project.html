@@ -13,9 +13,7 @@
         Edward Olney-Bell
       </button>
       <div class="menu-btns">
-        <button class="small-btn" onclick="location.href='portfolio.html';">
-          Portfolio
-        </button>
+
         <button
           class="small-btn"
           onclick="location.href='https://www.linkedin.com/in/edward-olney-bell-372939139/';"
@@ -25,12 +23,13 @@
       </div>
     </div>
 
-    <div class="page-header">Project 1</div>
+    <div class="page-header">Project 3</div>
     <div class="project-page">
-      <img class="intro-img" src="imgs/bottleneck-collage.png"></img>
       <div class="text-body">
         <div class="project-header">Bottleneck: A Browser-Based Coding Game</div>
-        <div class="project-body">Bottleneck is a game that provides players with practice solving problems in Javascript.
+        <div class="project-body">
+          <img class="intro-img" src="imgs/bottleneck-collage.png"></img>
+        Bottleneck is a game that provides players with practice solving problems in Javascript.
         Indeed, designing this game also improved my skills in Javascript, HTML, and CSS. Coding was in some sense the focus of this project for me, 
         leaving the aesthetics with some room for improvment. Nevertheless - wireframes, heuristic evaluations, and usability tests
         were still central to the development of this project.
@@ -38,26 +37,41 @@
         <a class="project-body" href='https://bottleneck.world'>bottleneck.world</a>
     </div>
     </div>
+
+    <p class="paragraph">An early review of the literature focused on gamification, usability heuristics, and teaching with games. In particular, I used a series of heuristics developed by Isbister & Schaffer (2008) to both guide game development and, later, to evaluate the game.</p>
+
+    <div class="img-caption">
+      <img class="showcase-img" src="imgs/Bottleneck/heuristics.png"></img>
+      <div class="caption">A sampling of heuristics.
+      </div>
+
+
+  </div>
+  <div class="second-header">Usability Test 1</div>
+  <p class="paragraph">Once a working version of the game had been developed, I recruited six participants for a first round of testing, which was intended to ascertain the usability of the game in its existing form at bottleneck.world. Participants would play in ‘Practice Mode’, without an opponent capable of winning (or doing much of anything) largely to test the intuitiveness of the game concept, the tutorial, and the strength of the user experience. The test protocol was designed to be open-ended, such that participants would come to their own conclusions without being influenced by my own biases. The script naturally included some probes for me to use if I desired more detail. Insights that came from this round of testing included the consequences of the users’ inability to modify the size of window’s in the game’s GUI, the fact that pointers given by the tutorial frequently appeared offscreen and were difficult to find, and the unfamiliar appearance of some of the game elements (e.g. resources, such as rocks), among others. </p>
+
     <div class="img-caption">
         <img class="showcase-img" src="imgs/Bottleneck/bottlneck2.png"></img>
-        <div class="caption">Screenshot from the game's tutorial
+        <div class="caption">A screenshot from the initial functioning prototype of the game 
         </div>
     </div>
+
+    <p class="paragraph">These findings led me to create a series of mockups, which formed a redesigned prototype of the game. Among the modifications was an expanded HUD (heads up display) to address issues participants had distinguishing informational displays and buttons, the ability to modify the size of windows, a redesigned tutorial, and simpler & more realistic game elements (e.g. resources).</p>
     <div class="img-caption">
-        <img class="showcase-img" src="imgs/Bottleneck/Wireframe1.png"></img>
-        <div class="caption">Wireframes and mockups were built in AdobeXD
-        </div>
-    </div>
-    <div class="img-caption">
-            <img class="showcase-img" src="imgs/Bottleneck/VSCode-screenshot.png"></img>
-            <div class="caption">The game was built with a variety of tools, primarily React
-            </div>
-    </div>
-    <div class="img-caption">
-            <img class="showcase-img" src="imgs/Bottleneck/Piskel-sprites.png"></img>
-            <div class="caption">Sprites, both static and animated, were designed for placement on the game's map
-            </div>
-    </div>
+      <img class="showcase-img" src="imgs/Bottleneck/Mockup1.png"></img>
+      <div class="caption">A sample of the new interface
+      </div>
+</div>
+<div class="second-header">Usability Test 2</div>
+<p class="paragraph">My second set of usability tests consisted of nine participants, only three of whom were brand new. I split my six participants up from last time into two groups of three: one group would return to the version of the game that they had played before, only this time without the tutorial. The other three returning participants would test the new prototype but would also not use the tutorial. The only individuals exposed to the new tutorial were the three new participants.</p>
+<p class="paragraph">The findings from the second round of usability tests produced a somewhat more compact user interface. This was partly a response to usability issues (e.g. trouble clicking on the game’s map) that arose from the enlarged HUD, as well as heavier reliance on (and stated desire for) tooltips. A mini map was added to aid in situation awareness (SA), which was found to be lacking for a number of participants.</p>
+<div class="img-caption">
+  <img class="showcase-img" src="imgs/Bottleneck/Mockup2.png"></img>
+  <div class="caption">A screenshot showing the latest iteration of the game interface
+  </div>
+</div>
+
+<p class="paragraph">Ideally, I would have continued testing the game from here and provided a full summative evaluation. However, as the project was largely academic and limited in scope, I wrapped things up after the second round of usability tests and game enhancements.</p>
 
 
   </body>

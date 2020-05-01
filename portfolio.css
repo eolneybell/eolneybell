@@ -25,19 +25,19 @@
 }
 
 .project-1 {
-  background-image: url("imgs/bottleneck-collage.png");
-}
-.project-2 {
   background-image: url("imgs/portable-dialysis.png");
 }
-.project-3 {
+.project-2 {
   background-image: url("imgs/glucose-meter.png");
 }
+.project-3 {
+  background-image: url("imgs/bottleneck-collage.png");
+}
 .project-4 {
-  background-image: url("imgs/vr-game.png");
+  background-image: url("imgs/hfe-website.png");
 }
 .project-5 {
-  background-image: url("imgs/hfe-website.png");
+  background-image: url("imgs/vr-game.png");
 }
 .project-6 {
   background-image: url("imgs/history-website.png");
@@ -65,6 +65,9 @@
   width: 194px;
   height: 194px;
   border: 3px solid #92cddc;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
 }
 
 .project-title:hover,
@@ -72,4 +75,7 @@
 .project-title:focus,
 .project-title.focus {
   flex: 100%;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease;
 }

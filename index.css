@@ -1,15 +1,23 @@
 @import "common.css";
 
+.home-body-container {
+  background-color: #ebebeb;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 .home-body {
   display: flex;
-  margin-left: 30px;
-  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  padding-left: 40px;
 }
 
 .silhouette {
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
   display: block;
   background-image: url("imgs/Silhouette10.png");
   background-position-x: center;
@@ -17,13 +25,15 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-color: #92cddc;
+  float: left;
 }
 
 .frame {
   border-radius: 50%;
-  height: 300px;
-  width: 300px;
+  height: 220px;
+  width: 220px;
   display: block;
+  float: left;
 }
 
 .text-body {
@@ -34,13 +44,86 @@
 .p-header {
   font: 300 0.5em helvetica, sans-serif;
   padding-left: 60px;
-  padding-top: 60px;
 }
 
 p {
   font: 300 0.35em helvetica, sans-serif;
-  padding-top: 10px;
   padding-left: 60px;
   padding-right: 60px;
   line-height: 200%;
+}
+
+.portfolio-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  width: 840px;
+}
+
+.project {
+  margin: 40px 40px 0 40px;
+  background-color: #ccc;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  cursor: pointer;
+}
+
+.project-1 {
+  background-image: url("imgs/portable-dialysis.png");
+}
+.project-2 {
+  background-image: url("imgs/glucose-meter.png");
+}
+.project-3 {
+  background-image: url("imgs/bottleneck-collage.png");
+}
+.project-4 {
+  background-image: url("imgs/hfe-website.png");
+}
+.project-5 {
+  background-image: url("imgs/vr-game.png");
+}
+.project-6 {
+  background-image: url("imgs/history-website.png");
+}
+
+.project-image {
+  flex: 75%;
+  min-height: 20px;
+}
+
+.project-title {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  flex: 25%;
+  font: 300 0.4em helvetica, sans-serif;
+  padding: 10px;
+}
+
+.project:hover,
+.project.hover,
+.project:focus,
+.project.focus {
+  outline: none;
+  box-shadow: none;
+  width: 194px;
+  height: 194px;
+  border: 3px solid #92cddc;
+}
+
+.project-title:hover,
+.project-title.hover,
+.project-title:focus,
+.project-title.focus {
+  flex: 100%;
 }
